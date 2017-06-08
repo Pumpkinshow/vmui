@@ -18,7 +18,7 @@ module.exports = {
         window.addEventListener('resize', () => {
             this._resize_();
         });
-
+  
         if(this.$el.style.height && (!this.style || !this.style.height)){
             this._height = this.$el.style.height;
         }
